@@ -1,0 +1,6 @@
+{
+  "name": "Modalidades Oracionales - Aprender Español y Armenio",
+  "description": "Իսպաներեն նախադասությունների հաղորդակցական տեսակների ամբողջական ուսումնական ձեռնարկ՝ ինտերակտիվ հայերեն թարգմանություններով",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

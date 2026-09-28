@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+  
+  .font-armenian {
+    font-family: 'Noto Sans Armenian', 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+}
+
+/* Custom interactive pulse for click-to-reveal hint */
+@keyframes soft-pulse {
+  0%, 100% { opacity: 0.9; }
+  50% { opacity: 0.5; }
+}
+
+.animate-soft-pulse {
+  animation: soft-pulse 2.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
